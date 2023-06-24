@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--
+        tr = linhas 
+        td = colunas
+        th = cabeçalho
+        colspan = divide a celula coluna no valor definido
+    -->
+
+    <h1>Tabela teste</h1>
+
+    <table border="solid 2px black">
+        <thead>
+            <tr>
+                <td>hola</td>
+                <td>olá</td>
+                <td>hello</td>
+                <td>imagem</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>espanhol</td>
+                <td>português</td>
+                <td>inglês</td>
+                <td><img src="imagens/evo vii.png" width="200px"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Tabela aula</h1>
+
+    <table border="solid 2px black"  width="50%">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Produto</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0001235</td>
+                <td>Notebook</td>
+                <td>R$ 4.999,00</td>
+            </tr>
+            <tr>
+                <td>0001254</td>
+                <td>Mouse</td>
+                <td>R$ 89,00</td>
+            </tr>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>R$ 5.088,00</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Desconto</td>
+                <td>Cupom: -R$ 50,00</td>
+            </tr>
+            <tr>
+                <td>Cupom: -R$ 18,99</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+</body>
+</html>
